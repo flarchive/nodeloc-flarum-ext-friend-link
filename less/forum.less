@@ -1,0 +1,379 @@
+.VPS {
+    margin-top: 15px;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(25%, 1fr));
+    .card {
+      grid-row: span 1;
+      border-radius: 5px;
+      padding: 5px;
+      position: relative;
+      border-color: #bdbdbd;
+      border-width: thin;
+      border-style: solid;
+    }
+    .short {
+      grid-row: span 1;
+    }
+    .tall {
+      grid-row: span 2;
+    }
+    .taller {
+      grid-row: span 3;
+    }
+    .content{
+      overflow: hidden;
+      max-height: 85%;
+      // border-width: thin;
+      // border-color: #bdbdbd;
+      // border-style: dotted;
+      // border-radius: 5px;
+    }
+    .footer{
+      bottom: 0;
+      position: absolute;
+      margin: 5px;
+      width: 90%;
+    }
+    .viewer{
+      background-color: transparent;
+      padding: 0;
+      margin-right: 10px;
+    }
+    .like{
+      background-color: transparent;
+      padding: 0;
+    }
+    .bulk{
+      background-color: transparent;
+      padding: 0;
+      margin-left: 10px;
+    }
+    .avatar{
+      width: 25px;
+      height: 25px;
+      font-size: 16px;
+    }
+    .action{
+      float: right;
+    }
+    .username{
+      margin-left: 5px;
+      font-size: 13px;
+      color: var(--muted-color)
+    }
+}
+.action-buttons{
+  text-align: center;
+}
+@media @phone {
+    .VPS {
+        grid-auto-rows: 130px;
+        grid-template-columns: repeat(2, minmax(25%, 1fr));
+        .avatar{
+          width: 20px;
+          height: 20px;
+          font-size: 16px;
+        }
+        .tall {
+          grid-row: span 1;
+        }
+        .taller {
+          grid-row: span 2;
+        }
+        .content{
+          overflow: hidden;
+          max-height: 75%;
+        }
+        .viewer{
+          display: none;
+        }
+    }
+}
+.add-select{
+font-weight: 600;
+border-radius: var(--border-radius);
+background: var(--tag-bg);
+color: var(--tag-color);
+text-transform: none;
+text-decoration: none !important;
+font-size: 85%;
+display: inline-block;
+padding: .1em .5em;
+vertical-align: bottom;
+height: 28px;
+}
+
+.add-select.unselect {
+  --tag-bg: transparent;
+  --tag-color: var(--muted-color);
+  border: 1px dotted;
+}
+.VPS-SiteList {
+  list-style: none;
+  margin: 0;
+  padding: 1.5em 0 0 0;
+  .Sitelogo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    color: #fff;
+    vertical-align: top;
+    font-weight: normal;
+    --size: 48px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  .UserOnline {
+    margin-right: 5px;
+
+    .icon {
+      font-size: 12px;
+    }
+
+    .fa-circle {
+      color: @online-user-circle-color;
+    }
+  }
+}
+
+.VPS-SiteList-item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 2px;
+  width: 20%;
+
+  a {
+    color: @text-color;
+    font-weight: bold;
+  }
+
+  .badges {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    right: 0;
+    text-align: right;
+    white-space: nowrap;
+    margin: 0; // Cancel rules in .DiscussionHero
+
+    .Badge {
+      margin-left: -10px;
+    }
+  }
+}
+@media @phone {
+  .VPS-SiteList-item {
+    width: 33.3%;
+  }
+}
+.VPS-SiteList-logo {
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+.VPS-SiteList-site {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.VPS-SiteList-user {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.VPS-SiteList-user a{
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+.VPS-content {
+  text-align: center;
+}
+
+.VPS-title {
+  font-size: 2em;
+}
+
+.VPS-description {
+  margin-bottom: 20px;
+}
+
+.FilterMenuItem-button--follow {
+  & when (@config-dark-mode = false) {
+    .Button--color(#de8e00, #fff2ae);
+  }
+  & when (@config-dark-mode = true) {
+    .Button--color(#784d00, #fbb94c);
+  }
+}
+.FilterMenuItem .Dropdown-menu {
+  min-width: 260px;
+}
+.FilterMenuItem-label {
+  padding-left: 25px;
+  display: block;
+  white-space: normal;
+
+  & strong {
+    display: block;
+  }
+}
+.FilterMenuItem-description {
+  display: block;
+  color: @muted-color;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.vps-add-botton{
+  float: right;
+  margin-left: 5px;
+}
+
+.vps-fresh{
+  float: right;
+  padding: 8px 12px;
+  text-align: center;
+  margin-left: 5px;
+  width: 38px
+}
+
+.vps-more{
+  margin-top: 15px;
+  text-align: center;
+}
+/* 全局样式 */
+ul.VPS-SiteList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 7px;
+}
+
+li.el-table__row,
+li.VPS-List-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.el-table__row {
+  font-weight: bold;
+}
+
+li.VPS-List-item {
+}
+
+li.VPS-List-item:nth-child(odd) {
+}
+
+li.VPS-List-item:hover {
+  background-color: var(--discussion-list-item-bg-hover);
+}
+
+/* 单元格样式 */
+.cell, .VPS-Product, .VPS-config, .action-buttons {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+Button.merchant{
+  margin-left: 10px;
+}
+
+.VPS-Product span {
+  display: block;
+}
+
+.VPS-Product {
+  text-align: left;
+  font-size: 15px;
+  width: 15%;
+  .merchant{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .product{
+    font-size: 12px;
+    color: #858c99;
+  }
+}
+
+.VPS-config {
+  font-size: 12px;
+  width: 20%;
+}
+.VPS-location {
+  font-size: 12px;
+  width: 10%;
+}
+.VPS-cost {
+  font-size: 12px;
+  width: 15%;
+}
+.VPS-tags {
+  font-size: 12px;
+  width: 15%;
+  .tag-style{
+    font-weight: 600;
+    border-radius: var(--border-radius);
+    background: var(--tag-bg);
+    color: var(--tag-color);
+    text-transform: none;
+    text-decoration: none !important;
+    font-size: 85%;
+    display: inline-block;
+    padding: .1em .5em;
+    vertical-align: bottom;
+    margin: .1em .5em;
+  }
+}
+.VPS-store {
+  font-size: 12px;
+  width: 10%;
+  span{
+    .fas.fa-star {
+      color: var(--link-color);
+    }
+
+    .far.fa-star {
+      color: lightgray;
+    }
+  }
+}
+/* 按钮样式 */
+.VPS-action {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a{
+    display: inline-block;
+    padding: .1em .5em;
+    vertical-align: bottom;
+    margin: .1em .5em;
+  }
+}
+
+/* 自定义标签样式 */
+.VPS-config span,
+.VPS-Product span {
+  display: inline-block;
+  margin: 2px 0;
+}
+.product_config{
+  .Select{
+    width: 25%;
+  }
+}
