@@ -2,13 +2,21 @@
 
 > **Read-only archive of released versions of nodeloc/flarum-ext-friend-link.** Not for installation: use [Packagist](https://packagist.org/packages/nodeloc/flarum-ext-friend-link) or the [upstream repository](https://github.com/nodeloc/flarum-ext-friend-link).
 
-**0** versions archived · Latest: [`1.1`](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.1) · License: `MIT` · Flarum: `^1.2.0`
+**9** versions archived · Latest: [`1.1`](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.1) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.0.1` | 2024-01-23 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.1) |
+| `0.0.2` | 2024-01-23 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.2) |
+| `0.0.3` | 2024-01-23 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.3) |
+| `0.0.4` | 2024-01-23 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.4) |
+| `0.0.5` | 2024-01-23 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.5) |
+| `0.1` | 2024-01-24 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.1) |
+| `0.3` | 2024-04-02 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.3) |
+| `1.0` | 2024-05-26 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.0) |
+| `1.1` | 2025-01-12 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.1) |
 
 Catalog entry: [packages/nodeloc-flarum-ext-friend-link.json](https://github.com/flarchive/archive-index/blob/main/packages/nodeloc-flarum-ext-friend-link.json)
 
