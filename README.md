@@ -1,8 +1,14 @@
-# nodeloc/flarum-ext-friend-link (Archive)
+# nodeloc-flarum-ext-friend-link (Archive)
 
-> **Read-only archive of released versions of nodeloc/flarum-ext-friend-link.** Not for installation: use [Packagist](https://packagist.org/packages/nodeloc/flarum-ext-friend-link) or the [upstream repository](https://github.com/nodeloc/flarum-ext-friend-link).
+> **Read-only archive of released versions for nodeloc/flarum-ext-friend-link, nodeloc/flarum-ext-vps.** Not for installation: use Packagist or the [upstream repository](https://github.com/nodeloc/flarum-ext-friend-link).
 
-**9** versions archived · Latest: [`1.1`](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.1) · License: `MIT` · Flarum: `^1.2.0`
+**9** versions archived · Latest: [`0.0.1`](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v0.0.1) · License: `MIT` · Flarum: `^1.2.0`
+
+## Linked Packages
+
+This canonical archive repository hosts releases for the following Packagist packages:
+- [`nodeloc/flarum-ext-friend-link`](https://packagist.org/packages/nodeloc/flarum-ext-friend-link)
+- [`nodeloc/flarum-ext-vps`](https://packagist.org/packages/nodeloc/flarum-ext-vps)
 
 ## Archived Versions
 
@@ -18,7 +24,10 @@
 | `1.0` | 2024-05-26 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.0) |
 | `1.1` | 2025-01-12 | `^1.2.0` | [Browse](https://github.com/flarchive/nodeloc-flarum-ext-friend-link/tree/archive/v1.1) |
 
-Catalog entry: [packages/nodeloc-flarum-ext-friend-link.json](https://github.com/flarchive/archive-index/blob/main/packages/nodeloc-flarum-ext-friend-link.json)
+## Catalog entries
+
+- [`nodeloc/flarum-ext-friend-link`](https://github.com/flarchive/archive-index/blob/main/packages/nodeloc-flarum-ext-friend-link.json)
+- [`nodeloc/flarum-ext-vps`](https://github.com/flarchive/archive-index/blob/main/packages/nodeloc-flarum-ext-vps.json)
 
 ## About this archive
 
